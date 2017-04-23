@@ -105,12 +105,3 @@ public class JHangmanTest {
 
 		JHangman.main("testing");
 		System.setIn(stdin);
-
-		assertEquals("???????"  + EOL + "letter y" + EOL + "1 try" + EOL +
-			"???????" + EOL + "letter z" + EOL + "2 tries" + EOL + "???????" + EOL + "letter x" + EOL +
-				"game over" + EOL + "???????" + EOL + "The word was testing!" + EOL, bytes.toString());
-	}
-
-
-
-}
